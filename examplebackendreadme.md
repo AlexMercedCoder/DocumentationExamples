@@ -35,7 +35,7 @@ erDiagram
 ```
 
 ```markdown
-```mermaid
+|```mermaid
 erDiagram
     OWNER ||--o{ DOG : owns
     OWNER{
@@ -48,5 +48,40 @@ erDiagram
     int age
     int owner_id
     }
+|```
 ```
+_NOTE: ignore the pipes in the code snippet, those are there so backticks don't end the codeblock prematurely_
+
+## The Route Table
+
+_This should be a list of endpoints, methods and descriptions of each route in the api_
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /dog | GET | returns all dogs |
+| /dog/:id | GET | returns a single dog by id |
+| /dog | POST | creates a new dog|
+| /dog/:id | PUT | updates a dog based on id |
+| /dog/:id | DELETE | deletes a dog based on id |
+| /owner | GET | returns all owner |
+| /owner/:id | GET | returns a single owner by id |
+| /owner | POST | creates a new owner|
+| /owner/:id | PUT | updates a owner based on id |
+| /owner/:id | DELETE | deletes a owner based on id |
+| /adopt/:owner_id/:dog_id | PUT | associates specified dog with specified owner |
+
+```markdown
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| /dog | GET | returns all dogs |
+| /dog/:id | GET | returns a single dog by id |
+| /dog | POST | creates a new dog|
+| /dog/:id | PUT | updates a dog based on id |
+| /dog/:id | DELETE | deletes a dog based on id |
+| /owner | GET | returns all owner |
+| /owner/:id | GET | returns a single owner by id |
+| /owner | POST | creates a new owner|
+| /owner/:id | PUT | updates a owner based on id |
+| /owner/:id | DELETE | deletes a owner based on id |
+| /adopt/:owner_id/:dog_id | PUT | associates specified dog with specified owner |
 ```
