@@ -85,3 +85,11 @@ _This should be a list of endpoints, methods and descriptions of each route in t
 | /owner/:id | DELETE | deletes a owner based on id |
 | /adopt/:owner_id/:dog_id | PUT | associates specified dog with specified owner |
 ```
+
+## Markdown Syntax Reminders
+
+```
+LINK: [Link Text](URL)
+PICTURE: ![ALT TEXT](URL)
+Horizontal Line: ---
+```
