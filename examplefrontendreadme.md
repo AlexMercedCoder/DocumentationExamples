@@ -17,14 +17,14 @@ title: Component Architecture
 flowchart TD
     App --> Header
     App --> Outlet
-    Outlet --"/"--> Index
-    Outlet --"/dog/:id"--> DogShow
-    Outlet --"/owner/:id"--> OwnerShow
-    Outlet --"/dog/create" --> action|dogCreateAction
-    Outlet --"/owner/create" --> action|ownerCreateAction
-    Outlet --"/dog/update/:id" --> action|dogUpdateAction
-    Outlet --"/owner/update/:id" --> action|ownerUpdateAction
-    Outlet --"/dog/delete/:id" --> action|dogDeleteAction
-    Outlet --"/owner/delete/:id" --> action|ownerDeleteAction
+    Outlet -- "/" --> Index
+    Outlet -- "/dog/:id" --> DogShow
+    Outlet -- "/owner/:id" --> OwnerShow
+    Outlet -- "/dog/create" --> action|dogCreateAction
+    Outlet -- "/owner/create" --> action|ownerCreateAction
+    Outlet -- "/dog/update/:id" --> action|dogUpdateAction
+    Outlet -- "/owner/update/:id" --> action|ownerUpdateAction
+    Outlet -- "/dog/delete/:id" --> action|dogDeleteAction
+    Outlet -- "/owner/delete/:id" --> action|ownerDeleteAction
 
 ```
