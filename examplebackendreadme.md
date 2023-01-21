@@ -35,7 +35,7 @@ erDiagram
 ```
 
 ```markdown
-\```mermaid
+```mermaid
 erDiagram
     OWNER ||--o{ DOG : owns
     OWNER{
@@ -48,5 +48,5 @@ erDiagram
     int age
     int owner_id
     }
-    \```
+```
 ```
