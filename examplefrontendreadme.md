@@ -28,3 +28,25 @@ flowchart TD
     Outlet -- "/owner/delete/:id" --> ownerDeleteAction
 
 ```
+
+```markdown
+|```mermaid
+---
+title: Component Architecture
+---
+flowchart TD
+    App --> Header
+    App --> Outlet
+    Outlet -- "/" --> Index
+    Outlet -- "/dog/:id" --> DogShow
+    Outlet -- "/owner/:id" --> OwnerShow
+    Outlet -- "/dog/create" --> dogCreateAction
+    Outlet -- "/owner/create" --> ownerCreateAction
+    Outlet -- "/dog/update/:id" --> dogUpdateAction
+    Outlet -- "/owner/update/:id" --> ownerUpdateAction
+    Outlet -- "/dog/delete/:id" --> dogDeleteAction
+    Outlet -- "/owner/delete/:id" --> ownerDeleteAction
+
+|```
+```
+_ignore the pipes before the backticks, they are there to just avoid the backtickets from terminating the codeblock early_
