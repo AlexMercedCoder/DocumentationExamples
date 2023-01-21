@@ -91,3 +91,13 @@ _images showing a mockup of your desktop and mobile design these could be made w
 ### Mobile Mockup
 
 ![Mobile Mockup](https://i0.wp.com/365webresources.com/wp-content/uploads/2022/03/iPhone-Browsers-Safari-Chrome-iOS-15.jpg?ssl=1)
+
+```
+### Desktop Mockup
+
+![Desktop Mockup](https://www.addictivetips.com/app/uploads/2011/06/Mockup-Builder.jpg)
+
+### Mobile Mockup
+
+![Mobile Mockup](https://i0.wp.com/365webresources.com/wp-content/uploads/2022/03/iPhone-Browsers-Safari-Chrome-iOS-15.jpg?ssl=1)
+```
