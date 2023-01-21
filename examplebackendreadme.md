@@ -33,3 +33,20 @@ erDiagram
     }
 
 ```
+
+```markdown
+\```mermaid
+erDiagram
+    OWNER ||--o{ DOG : owns
+    OWNER{
+    int ID
+    string name
+    int age}
+    DOG {
+    int ID
+    string name
+    int age
+    int owner_id
+    }
+    \```
+```
