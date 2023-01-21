@@ -20,11 +20,11 @@ flowchart TD
     Outlet -- "/" --> Index
     Outlet -- "/dog/:id" --> DogShow
     Outlet -- "/owner/:id" --> OwnerShow
-    Outlet -- "/dog/create" --> action|dogCreateAction
-    Outlet -- "/owner/create" --> action|ownerCreateAction
-    Outlet -- "/dog/update/:id" --> action|dogUpdateAction
-    Outlet -- "/owner/update/:id" --> action|ownerUpdateAction
-    Outlet -- "/dog/delete/:id" --> action|dogDeleteAction
-    Outlet -- "/owner/delete/:id" --> action|ownerDeleteAction
+    Outlet -- "/dog/create" --> dogCreateAction
+    Outlet -- "/owner/create" --> ownerCreateAction
+    Outlet -- "/dog/update/:id" --> dogUpdateAction
+    Outlet -- "/owner/update/:id" --> ownerUpdateAction
+    Outlet -- "/dog/delete/:id" --> dogDeleteAction
+    Outlet -- "/owner/delete/:id" --> ownerDeleteAction
 
 ```
